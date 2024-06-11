@@ -45,7 +45,6 @@ button {
     color: white;
     background-color:rgb(19, 119, 44);
 }
-
 button:hover {
     background-color: rgb(19, 119, 44);
 }
@@ -216,7 +215,6 @@ header a:hover {
 .predecir{
     background-image: url('../img/predecir/uron.jpg');
     background-size: cover;
-    
     background-position: center;
 }
 
@@ -230,7 +228,7 @@ header a:hover {
 
 
 #animal-form {
-    background-color: #444;
+    background-color: #212529;
     padding: 2em;
     border-radius: 5px;
     color: white;
@@ -393,3 +391,23 @@ label, button{
         border-radius: 5px;
     }
   }
+
+   /* Estilo para ampliar el formulario */
+   #predecir {
+    width: 100%;
+   background-color: #212529;
+}
+#formulario-prediccion{
+    width: 100%;
+    background-color: #212529  ;   
+   }
+
+#animal-form {
+    width: 100%;
+}
+
+#animal-form input, 
+#animal-form select, 
+#animal-form button {
+    width: 100%;
+    margin-bottom: 10px;}

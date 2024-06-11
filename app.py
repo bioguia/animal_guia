@@ -7,7 +7,7 @@ import openai
 import tensorflow as tf
 
 # Clave de la API de OpenAI
-openai_api_key = os.environ.get('sk-proj-tIHADECUoicEKPxQt032T3BlbkFJSsgKbNQalPWDlnnt674I')
+openai_api_key = os.environ.get('4I')
 
 app = Flask(__name__, static_folder="static")
 app.secret_key = 'supersecretkey'
