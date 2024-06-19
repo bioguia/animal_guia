@@ -207,11 +207,6 @@ header a:hover {
     }
   }
 
-
-.link_blanco{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
 .predecir{
     background-image: url('../img/predecir/uron.jpg');
     background-size: cover;
@@ -306,10 +301,6 @@ label:hover, button:hover{
     background-color: rgb(216, 199, 46);
 }
 
-.link_blanco{
-    color: white; /* Cambia el color predeterminado de los enlaces a blanco */
-    text-decoration: none; /* Opcional: quita el subrayado predeterminado de los enlaces */
-}
 label, button{
     font-size: 1.25em;
     font-weight: bold;
