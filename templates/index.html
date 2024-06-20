@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Aplicación para clasificacion de animales por medio de Inteligencia Artificial" />
+    <meta name="author" content="Felipe T, Marcos R, Emilio" />
     <title>Animal-Guia</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -14,9 +14,8 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    
     <!-- Core theme CSS (includes Bootstrap)-->
-    <!--link href="css/styles.css" rel="stylesheet" /-->
-
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
 
     <style>
@@ -63,7 +62,7 @@
         <div class="container px-4 px-lg-5">
 
             <div class="text-center mb-5">
-                <h2 class=" text-uppercase">Grupos</h2>
+                <h2 class="text-uppercase">Grupos</h2>
                 <p class=" text-muted">El grupo de animales que estamos enfocados.</p>
             </div>
             <!-- Projecto fila uno-->
@@ -530,16 +529,7 @@
         </div>
     </div>
 
-    <script>
-        // Obtener el elemento span donde se mostrará el año
-        var yearSpan = document.getElementById("year");
-
-        // Obtener el año actual
-        var currentYear = new Date().getFullYear();
-
-        // Actualizar el contenido del span con el año actual
-        yearSpan.textContent = currentYear;
-    </script>
+    <script src="{{ url_for('static', filename='js/obtener_fecha.js') }}"></script>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

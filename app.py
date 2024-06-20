@@ -53,7 +53,7 @@ def index():
         # Establecer un nombre fijo para la imagen
         image_filename = 'temp_image.jpg'
         image_path = os.path.join(app.config['UPLOAD_FOLDER'], image_filename)
-
+        
         # Guardar el archivo de imagen
         image_file.save(image_path)
 

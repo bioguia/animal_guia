@@ -58,56 +58,6 @@ button:hover {
     color: rgb(19, 119, 44);
 }
 
-/*
-header.masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    color: #fff;
-    background-image: url("../img/header_animales.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-  }
-*/
-
-header {
-    background-color: rgb(245, 245, 245);
-}
-
-header .logo {
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: rgb(19, 119, 44);
-    font-size: 1.6em;
-}
-
-header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-header a {
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-header a:hover {
-    color:rgb(13, 184, 56);
-}
-
 #hero {
     display: flex;
     align-items: center;
@@ -135,7 +85,7 @@ header a:hover {
 
 #instrucciones .container {
     text-align: center;
-    padding: 200px 12px;
+    padding: 100px 12px;
 }
 
 @media (min-width: 850px) {
@@ -166,7 +116,7 @@ header a:hover {
 
     #instrucciones .texto {
         width: 50%;
-        max-width: 600px;
+        max-width: 500px;
         text-align: initial;
         padding-left: 30px;
         display: flex;
@@ -182,48 +132,18 @@ header a:hover {
         background-image: url("../img/predecir/instrucions.jpg");
         background-size: cover;
         background-position: center center;
-        height: 500px;
+        height: 400px;
         width: 500px;
     }
-
-    
 
     footer .container {
         justify-content: flex-end;
     }
 }
 
-@media (min-width: 1200px) {
-    #predecir {
-        background-position-x: calc(100vw - 800px);
-        /*margin: 40px;*/
-    }
-}
-
-/* Para pantallas pequeñas, típicamente teléfonos móviles */
-@media (max-width: 576px) {
-    #predecir {
-     margin-top: 40px;
-    }
-  }
-
-.predecir{
-    background-image: url('../img/predecir/uron.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 /*si vas a poner mas css aslo desde aqui */
 
-/*nuevo */
-
-.result{
-    color: white;
-}
-
-
 #animal-form {
-    background-color: #212529;
     padding: 2em;
     border-radius: 5px;
     color: white;
@@ -231,6 +151,10 @@ header a:hover {
     width: 100%;
     box-sizing: border-box;
     font-size: 1em; /* Tamaño de fuente base */
+}
+
+#formulario-prediccion {
+    background-color: #212529;
 }
 
 #animal-form input,
@@ -280,15 +204,6 @@ header a:hover {
     
 }
 
-.result {
-    margin-top: 2em;
-}
-
-.result img {
-    max-width: 100%; /* La imagen se ajustará al ancho de su contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
-    max-height: 100%; /* Establece una altura máxima para evitar que la imagen se haga demasiado pequeña en zoom */
-}
 .chat-box {
     margin-top: 1em;
     padding: 1em;
@@ -383,15 +298,7 @@ label, button{
     }
   }
 
-   /* Estilo para ampliar el formulario */
-   #predecir {
-    width: 100%;
-   background-color: #212529;
-}
-#formulario-prediccion{
-    width: 100%;
-    background-color: #212529  ;   
-   }
+  
 
 #animal-form {
     width: 100%;
