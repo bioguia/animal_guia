@@ -315,20 +315,20 @@
                                             <p>Clase: ${resultText}</p>   
                                             <p>con un acertamiento de un : ${parseInt(porcentaje * (100 / 255))}%</p>
                                             <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-3 mb-2 mb-lg-0">
+                                                <div class="col-12 col-md-6 col-lg-2 mb-2 mb-lg-0">
                                                     <button type="button" class="btn btn-success w-100 description-btn" data-class="${resultText}">Mostrar Descripción</button>
                                                 </div>
                                                 <div class="col-12 col-md-6 col-lg-3 mb-2 mb-lg-0">
                                                     <button type="button" class="btn btn-success w-100 caracteristicas-btn" data-class="${resultText}">Mostrar Características</button>
                                                 </div>
-                                                <div class="col-12 col-md-6 col-lg-3 mt-2 mt-md-0 mt-sm-0 mb-sm-2 mb-lg-0">
+                                                <div class="col-12 col-md-6 col-lg-2 mt-2 mt-md-0 mt-sm-0 mb-sm-2 mb-lg-0">
                                                     <button type="button" class="btn btn-dark w-100 PEL-btn" data-class="${resultText}">Peligro de Extinción</button>
                                                 </div>
                                                 <div class="col-12 col-md-6 col-lg-3 mt-2 mt-md-0 mt-sm-0">
                                                     <button type="button" class="btn btn-warning w-100 COMO-btn" data-class="${resultText}">Cómo Cuidarse o Cuidarlas</button>
                                                 </div>
-                                                <div class="col-12 col-md-6 col-lg-3 mt-2 mt-md-0 mt-sm-0">
-                                                    <button type="button" class="btn btn-warning w-100 gan-btn" data-class="${resultText}">Ganaderia</button>
+                                                <div class="col-12 col-md-6 col-lg-2 mt-2 mt-md-0 mt-sm-0">
+                                                    <button type="button" class="btn btn-warning w-100 gan-btn" data-class="${resultText}">Ganaderia &nbsp &nbsp &nbsp  </button>
                                             </div>
                                             </div>
                                         </div>
@@ -378,7 +378,7 @@
             // Manejo del clic en el botón ganaderia
             $(document).on('click', '.gan-btn', function () {
                 var animalClass = $(this).data('class');
-                $('#animal-name-modal').text("¿Caracteristicas de ganaderia del animal?"); // Mostrar el nombre del animal en la mini ventana
+                $('#animal-name-modal').text("Aplicación en ganaderia"); // Mostrar el nombre del animal en la mini ventana
                 $('#miniModal').show(); // Mostrar la mini ventana con el nombre del animal
                 buscarga(animalClass);
             });
